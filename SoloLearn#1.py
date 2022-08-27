@@ -16,7 +16,6 @@ i = 0
 for key in data:
     if key == name:
         i += 1
-
 if i == 1:
     print(data.get(name))
 else:
