@@ -9,8 +9,13 @@ def my_func(x, y=7, *args, **kwargs):
     print(kwargs)
 my_func(2, 3, 4, 5, 6, a=7, b=8)
 
-
 def my_min(*args):
     return min(args)
-
 print(my_min(13, 4, 42, 120, 7))
+
+def spell(txt):
+    ls = list(txt)
+    for i in ls[::-1]:
+        print(i)
+txt = input()
+spell(txt)
