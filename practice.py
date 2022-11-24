@@ -8,3 +8,4 @@ from math import *
 name = input()
 
 print("나는 " + name + "입니다")
+print("My name is " + name + ".")
